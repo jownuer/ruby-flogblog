@@ -1,0 +1,34 @@
+.accounts.edit {
+	form {
+		flex: 0 0 50%;
+	}
+
+	.card {
+		.card-title {
+			margin-top: 10px;
+		 	margin-left: 20px;
+		}
+	}
+}
+
+
+@media screen and (min-width: 34em) {
+	form {
+		flex: 0 0 100%;
+	}
+
+	.accounts.edit {
+		.col-md-6 {
+			max-width: 100% !important;
+		}
+	}	
+}
+
+/* Medium. Above 48em (768px) */
+@media screen and (min-width: 48em) {
+	.accounts.edit {
+		.col-md-6 {
+			max-width: 100% !important;
+		}
+	}
+}
